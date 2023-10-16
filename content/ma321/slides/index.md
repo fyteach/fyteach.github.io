@@ -3,7 +3,9 @@ title: Slides for MA321 Mathematics in Contemporary Society
 # type: section
 ---
 
-## List of course slides
+## List of course slides for MA321 Mathematics in Contemporary Society
+
+This page contains a list of slides for the MA321 Mathematics in Contemporary Society course. The slides are organized by lesson and can be accessed by clicking on the links below.
 
 - [Lesson 1: Fundamentals of Statistics](Lesson01-Unit-5A.html)
 - [Lesson 2: Statistical Study - Trust or Not](Lesson02-Unit-5B.html)

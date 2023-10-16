@@ -1,48 +1,47 @@
 baseurl = "/"
+# relativeURLs = true
+# canonifyURLs = true
+
 languageCode = "en-US"
-title = "fyteaching"
+title = "MathTR"
 # theme = "hugo-lithium"
-googleAnalytics = ""
+# googleAnalytics = ""
 # ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Books"
+    url = "/books/"
     weight = 1
 [[menu.main]]
-    name = "Books"
-    url = "/books/index.html"
+    name = "Slides"
+    url = "/slides/"
     weight = 2
 [[menu.main]]
-    name = "MA 321"
-    url = "/ma321/index.html"
+    name = "Labs"
+    url = "/labs/"
     weight = 3
 [[menu.main]]
-    name = "MA 336"
-    url = "/ma336/index.html"
+    name = "Reviews"
+    url = "/refs/"
     weight = 4
 [[menu.main]]
-    name = "Others"
-    url = "/others/index.html"
+    name = "Worksheets"
+    url = "/worksheets/"
     weight = 5
-# [[menu.main]]
-#     name = "GitHub"
-#     url = "https://github.com/rstudio/blogdown"
-# [[menu.main]]
-#     name = "Twitter"
-#     url = "https://twitter.com/rstudio"
+[[menu.main]]
+    name = "Learning Goals"
+    url = "/goals/"
+    weight = 6
+[[menu.main]]
+    name = "Misc"
+    url = "/misc/"
+    weight = 7
 
 [params]
-    description = "A website for teaching/learning in math."
-
-    # options for highlight.js (version, additional languages, and theme)
-    # highlightjsVersion = "9.12.0"
-    # highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    # highlightjsLang = ["r", "yaml"]
-    # highlightjsTheme = "github"
+    description = "A website for teaching in math."
 
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"

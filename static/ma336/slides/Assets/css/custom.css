@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Noto+Sans+Mono&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro&display=swap');
+
+body {
+  font-family: 'Noto Sans', 'Open Sans', sans-serif;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+h1, h2, h3, .part {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  color: #6296ff;
+}
+
+:root {
+  font-size: 16px;
+  font-size: calc(9px + 1vmin);
+}
+
+h1, h2, h2 {
+  margin-block-start: 0.6em;
+  margin-block-end: 0.6em;
+}
+
+p, ul, ol, div {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+code {
+  font-family: 'Noto Sans Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+.part {
+  /* color: rgb(15, 11, 227); */
+  font-size: 200%;
+  /* align-self: center; */
+}
+
+/* .MathJax { font-size: 0.9em !important; } */
+
+.red { color: rgb(223, 20, 20); }
+
+.blue { color: rgb(66, 66, 247); }
+
+.green { color: rgb(30, 219, 30); }
+
+.purple {color: rgb(226, 15, 233);}
+
+.gold {color: rgb(255, 215, 0);}
+
+.grey {color: rgb(177, 159, 149)}
+
+.yellow {color: yellowgreen}
+
+.pull-left {
+  width: 49%;
+}
+
+.pull-right {
+  width: 49%;
+}
+
+.row {
+  display: flex;
+  justify-content: top;
+  align-items: flex-start;
+}
+
+.row .left-col {
+  width: 20%;
+  padding-top: 0em;
+  padding-right:1em;
+}
+.row .right-col {
+  width: 75%;
+  padding-top: 0em;
+  padding-right:1em;
+}
+
+.page-number {
+  font-size: 70%;
+}
+
+div.footmark p,
+div.footmark {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+}
+
+table, table thead th {
+  border-top: 0px;
+  border-bottom: 0px;
+  padding:0px;
+}
+table thead th[style] {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+thead tr th, tr:nth-child(2n){
+  background: LightCyan;
+}
+
+table thead tr:empty{
+  visibility: hidden;
+}
+
+strong, b {
+    color: DarkBlue;
+}
+
+.DataTable tr:nth-child(2n){
+    background-color: white !important;
+}
+
+.latex-macros{
+  display: none;
+}
+
+table{
+border-collapse: collapse;
+}
+
+thead:empty {
+  display: none;
+}
+
+.remark::before {
+  content: "Remark:";
+  color: #Feec01;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.frontmatter {
+  background-image: url(QCC-logo.jpg);
+  background-repeat: no-repeat;
+  background-position: 5% 5%;
+  background-size: 25%;
+  text-shadow: none;
+}
+
+.slide-container .slide {
+  background-image: url(nc_sa.png);
+  background-size: auto 0.7em;
+  background-repeat: no-repeat;
+  background-position: 6% 100%;
+  background-attachment: local;
+}
+
+
+.iframecontainer {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  border: none;
+  flex: 1;
+}
+
+iframe[src^="https://www.myopenmath.com"] {
+  flex: 0.8;
+  max-width: 72vw;
+  -webkit-transform: scale(1.25);  /* Saf3.1+, Chrome */
+     -moz-transform: scale(1.25);  /* FF3.5+ */
+      -ms-transform: scale(1.25);  /* IE9 */
+       -o-transform: scale(1.25);  /* Opera 10.5+ */
+          transform: scale(1.25);   /* IE8+ - must be on one line, unfortunately */
+  -moz-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+/* span {
+  text-align: center;
+  font-size: 0.7em;
+  bottom: 0;
+  position: absolute;
+  color: #6296ff;
+} */
+
+/* .slide:has(iframe[src^="https://www.myopenmath.com"]) {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.slide iframe[src^="https://www.myopenmath.com"] {
+  flex: 1;
+} */
+
+.small{
+  font-size: 60%;
+}
+
+.footmark{
+  font-size: 70%;
+  bottom: 0.8em;
+  position: absolute;
+  color: #6296ff;
+  /* background-color: #ffeec4; */
+}
+
+/* .MathJax {
+  font-size: 0.9em;
+} */
+
+mjx-container[jax="SVG"][display="true"]{
+  margin: 0.6em 0 !important;
+}
