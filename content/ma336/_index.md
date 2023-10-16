@@ -1,6 +1,6 @@
 ---
 title: Slides for MA336 Statistics
-# type: section
+type: section
 ---
 
 ## List of course slides

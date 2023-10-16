@@ -1,6 +1,6 @@
 ---
 title: Excel Labs for MA321
-# type: section
+type: section
 ---
 
 ## List of lab instructions

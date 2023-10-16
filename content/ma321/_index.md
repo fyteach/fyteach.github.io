@@ -1,6 +1,6 @@
 ---
 title: MA321 Mathematics in Contemporary Society
-# type: section
+type: section
 ---
 
 ## Course slides

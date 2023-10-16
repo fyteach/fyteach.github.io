@@ -1,6 +1,6 @@
 ---
 title: Teaching Resources
-type: home
+# type: home
 ---
 
 This page contains some teaching staff on mathematics that may be useful for the reader. Please feel free to use them under the CC BY-NC-SA 4.0 license.
