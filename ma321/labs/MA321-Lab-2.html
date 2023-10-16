@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MA321 Lab 2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+    sans-serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      background-color: #f0f0f0;
+      padding: .2em .4em;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      background-color: #f0f0f0;
+      padding: 1em;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MA321 Lab 2</h1>
+<p class="subtitle">Frequency Tables and Charts</p>
+</header>
+<h2 id="excel-tables">Excel Tables</h2>
+<p>Table is a primary way to store data. In general, a column of a table
+represents a variable and a row stores data associated to an object
+being observed.</p>
+<p>In Excel, a table is not just an array (rectangular block) of data in
+a spreadsheet, but a special object with many useful properties, such
+as,</p>
+<ol type="1">
+<li>always visible column headers,</li>
+<li>dynamic graphs/charts,</li>
+<li>calculation using column headings,</li>
+<li>Automatically formula filling in.</li>
+</ol>
+<figure>
+<img src="img/image-20200823221338900.png"
+alt="image-20200823221338900" />
+<figcaption aria-hidden="true">image-20200823221338900</figcaption>
+</figure>
+<figure>
+<img src="img/image-20200823221754654.png"
+alt="image-20200823221754654" />
+<figcaption aria-hidden="true">image-20200823221754654</figcaption>
+</figure>
+<h3 id="creating-a-table-in-excel">Creating a Table in Excel</h3>
+<p>To create a table from an array (rectangular block) of data in Excel
+is very easy. Simply select the array and then go to <code>Insert</code>
+choose the <code>Table</code> function.</p>
+<figure>
+<img src="img/image-20200823222405027.png"
+alt="image-20200823222405027" />
+<figcaption aria-hidden="true">image-20200823222405027</figcaption>
+</figure>
+<h3 id="creating-a-frequency-table">Creating a Frequency Table</h3>
+<p>In Excel, to create a frequency table for a data array, we need a bin
+array which is used to split the date set into smaller intervals. The
+values in a bin array in Excel are (upper) boundaries of intervals. With
+a data array and a bin array, we can use the Excel function
+<code>FREQUENCY (data_array, bins_array)</code> to create a frequency
+table.</p>
+<p>In this formula, the value in a bin array is the upper bound of a
+interval. That is, if the bin array consists of 30, 40, and 50, then the
+corresponding intervals will be <span class="math inline">(−,30]</span>,
+<span class="math inline">(30, 40]</span>, <span
+class="math inline">(40, 50]</span>,<span
+class="math inline">(50,  + ]</span>, where <span
+class="math inline">−</span> and <span class="math inline">+</span>
+represent respectively numbers smaller and bigger than the minimum of
+the data set.</p>
+<p><strong>Example:</strong> Create a frequency table for the test
+scores 50 56 56 57 58 63 64 65 68 69 69 69 70 71 71 71 73 74 80 87 using
+the bin array 50 60 70 80 90 100.</p>
+<p>Suppose the test scores are in column A and the bin array is in
+column B. Here is how to create a frequency table using the function
+<code>FREQUENCY (data_array, bins_array)</code>:</p>
+<ol type="1">
+<li>In column C, right to the smallest value of the bin array enter
+<code>=FEQUENCY(</code></li>
+<li>select the test scores</li>
+<li>in the formula bar, enter the symbol comma <code>,</code></li>
+<li>select the bin array</li>
+<li>in the formula bar, enter <code>)</code>.</li>
+</ol>
+<p>Hit the <code>Enter</code>, you will get a frequency table.</p>
+<figure>
+<img src="img/2020-08-23-23-23-28.gif" alt="2020-08-23-23-23-28" />
+<figcaption aria-hidden="true">2020-08-23-23-23-28</figcaption>
+</figure>
+<p><strong>Note:</strong> If you are using an older version of Excel,
+the formula must be entered by first selecting the output range,
+entering the formula in the top-left-cell of the output range, and then
+pressing <strong>CTRL+SHIFT+ENTER</strong> to confirm it. Excel inserts
+curly brackets at the beginning and end of the formula for you.</p>
+<h2 id="creating-charts-in-excel">Creating Charts in Excel</h2>
+<p>Excel has many built-in chart functions. To create a charts,</p>
+<ol type="1">
+<li>Select the data array/table</li>
+<li>Under the <code>Insert</code> tab, click on an appropriate chart in
+the <code>Charts</code> command set.</li>
+</ol>
+<p>The appearance of chart can be changed after being created.</p>
+<p><strong>Example:</strong> Create a Pie Chart for the following
+frequency table.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Bins</th>
+<th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0-50</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>51-60</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>61-70</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>71-80</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>81-90</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>91-100</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li><p>Select the frequencies.</p></li>
+<li><p>Under the Insert tab, click the
+<code>Insert Pie or Doughnut Chart</code>.</p>
+<figure>
+<img src="img/image-20200824002653077.png"
+alt="image-20200824002653077" />
+<figcaption aria-hidden="true">image-20200824002653077</figcaption>
+</figure></li>
+<li><p>Using bins as the legend:</p>
+<ol type="1">
+<li><p>Right click the legend (the bottom part of the chart) and choose
+<code>Select Data</code></p>
+<figure>
+<img src="img/image-20200824002949616.png"
+alt="image-20200824002949616" />
+<figcaption aria-hidden="true">image-20200824002949616</figcaption>
+</figure>
+<ol start="2" type="1">
+<li><p>In the popup windows, click <code>Edit</code> horizontal axis
+label</p>
+<figure>
+<img src="img/image-20200824003304973.png"
+alt="image-20200824003304973" />
+<figcaption aria-hidden="true">image-20200824003304973</figcaption>
+</figure>
+<ol start="3" type="1">
+<li><p>Select bins and click OK and then OK again.</p>
+<figure>
+<img src="img/2020-08-24-00-37-14.gif" alt="2020-08-24-00-37-14" />
+<figcaption aria-hidden="true">2020-08-24-00-37-14</figcaption>
+</figure></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><p>Add data labels or format them</p>
+<ol type="1">
+<li><p>Right click the pie and click
+<code>Add Data Labels</code>.</p></li>
+<li><p>Right click the pie again and click
+<code>Format Data Labels</code>, you can then choose formats for data
+labels.</p>
+<figure>
+<img src="img/2020-08-24-00-44-36.gif" alt="2020-08-24-00-44-36" />
+<figcaption aria-hidden="true">2020-08-24-00-44-36</figcaption>
+</figure></li>
+</ol></li>
+</ol>
+<h2 id="create-simple-histogram-charts-in-excel">Create Simple Histogram
+Charts in Excel</h2>
+<ol type="1">
+<li><p>Select the data</p></li>
+<li><p>On the <code>Insert</code> tab, in the <code>Charts</code> group,
+from the <code>Insert Statistic Chart</code> dropdown list, select
+<code>Histogram</code>:</p>
+<figure>
+<img src="img/image-20200824011636566.png"
+alt="image-20200824011636566" />
+<figcaption aria-hidden="true">image-20200824011636566</figcaption>
+</figure>
+<p><strong>Note:</strong> The histogram contains a special first bin
+which always contains the smallest number. This is different from many
+textbooks.</p></li>
+</ol>
+<p>To <strong>format the histogram chart</strong> is similar to format a
+Pie chart. For example, you can change bin width from
+<code>Format Axis</code>.</p>
+<ol type="1">
+<li><p>Right-click on the horizontal axis and choose
+<code>Format Axis</code> in the popup menu:</p></li>
+<li><p>In the <code>Format Axis</code> pane, on the
+<code>Axis Options</code> tab, you may try different options for bins.
+See the following gif for an example.</p>
+<figure>
+<img src="img/2020-08-24-01-25-47.gif" alt="2020-08-24-01-25-47" />
+<figcaption aria-hidden="true">2020-08-24-01-25-47</figcaption>
+</figure></li>
+</ol>
+<p><strong>Remark:</strong></p>
+<ul>
+<li><p>Select the <strong>Overflow bin</strong> checkbox and type the
+number, all values above this number will be added to the last
+bin.</p></li>
+<li><p>Select the <strong>Underflow bin</strong> checkbox and type the
+number, all values below and equal to this number will be added to the
+first bin.</p></li>
+<li><p>Histograms show the shape and the spread of quantitative data.
+For categorical data, discrete by its definition, bar charts are usually
+used to represent category frequencies.</p></li>
+</ul>
+<h2 id="lab-assignment-2">Lab Assignment #2</h2>
+<p>The following data set consists of 20 test scores.</p>
+<p>89 62 40 42 9 16 88 73 39 72 71 51 40 37 72 81 36 13 10 70</p>
+<p>Using the data set to</p>
+<ol type="1">
+<li>Create a frequency table.</li>
+<li>A pie chart using the frequency table.</li>
+<li>A histogram with bin width 9.</li>
+<li>Describe the shape of the distribution.</li>
+</ol>
+</body>
+</html>

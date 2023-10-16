@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="grade.css?"/>
+  </head>
+  <body>
+    <h1>Overall Grade Calculator</h1>
+    <p>How to use the grade calculator</p>
+    <p></p>
+    <ul>
+      <li>
+        Enter weights of assessments. Make sure that the weights you enter are
+        in the same scale.
+      </li>
+      <li>Enter your scores accordingly.</li>
+      <li>Leave the boxes blank if you don't have that type of assessment.</li>
+    </ul>
+    <div style="overflow-x:auto;">
+      <table>
+        <tr>
+          <th>Type of Assessment</th>
+          <th>Weight</th>
+          <th>Score(in 100-point scale)</th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="homework" name="homework" value="Homework"> -->
+            <label for="homework">Homework Average</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="test" name="test" value="Test"> -->
+            <label for="Test">Test Average</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="final" name="final" value="Final"> -->
+            <label for="final">Final Exam</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="quiz" name="quiz" value="Quiz"> -->
+            <label for="quiz">Quiz Average</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="attendance" name="attendance" value="Attendance"> -->
+            <label for="attendance">Attendance/In-class Performance</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="lab" name="lab" value="Lab"> -->
+            <label for="lab">Lab Assignment</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <!-- <input type="checkbox" id="project" name="project" value="Project"> -->
+            <label for="project">Project</label>
+          </th>
+          <th>
+            <input type="number" placeholder="1" name="weight[]" />
+          </th>
+          <th>
+            <input type="number" placeholder="0" name="score[]" />
+          </th>
+        </tr>
+      </table>
+    </div>
+
+    <div style="text-align: center;">
+      <p>
+        <button type="button" onclick="calcGrades()">
+          Please calculate my grade.
+        </button>
+      </p>
+    </div>
+
+    <div class="warningmessage" style="text-align: center;">
+      <p id="totalweight"></p>
+      <p id="overestimated"></p>
+    </div>
+
+    <div class="ScoreLetter">
+      <p>
+        Based on what you entered, your overall grade is
+        <span id="overallgrade"></span>/100.
+      </p>
+      <p>
+        Your grade letter is
+        <span id="gradeletter"></span>.
+      </p>
+    </div>
+  </body>
+
+  <script src="calcGrades.js"></script>
+</html>
