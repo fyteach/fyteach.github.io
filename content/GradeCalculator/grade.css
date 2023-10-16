@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: calc(1rem + 0.2vmin);
+  max-width: 88%;
+  background-color: aliceblue;
+  margin: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+th {
+  text-align: left;
+  padding: 0.5em;
+  font-size: calc(1.2rem + 0.5vmin);
+}
+tr {
+  height: 3rem;
+}
+tr th:first-of-type {
+  width: 45%;
+}
+tr th:not(:first-of-type) {
+  width: 25%;
+}
+
+input[type="number"],
+button {
+  font-size: calc(1.2rem + 0.5vmin);
+}
+
+input[type="number"] {
+  width: 90%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#overallgrade,
+#gradeletter {
+  color: blue;
+  background: cyan;
+  width: max-content;
+  padding: 0.25 0.5em;
+}
+#totalweight,
+#overestimated {
+  color: rgb(255, 0, 0);
+  width: fit-content;
+}
+
+#totalweight,
+#overestimated,
+.ScoreLetter > p {
+  font-size: calc(1.5rem + 1vmin);
+  font-weight: bold;
+  margin: 0;
+  padding: 0.25 0.5em;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ScoreLetter {
+  display: none;
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}

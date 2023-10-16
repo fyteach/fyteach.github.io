@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MA321 Lab 4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+    sans-serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      background-color: #f0f0f0;
+      padding: .2em .4em;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      background-color: #f0f0f0;
+      padding: 1em;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MA321 Lab 4</h1>
+<p class="subtitle">Descriptive Statistics</p>
+</header>
+<h2 id="measures-of-center-and-variation">Measures of Center and
+Variation</h2>
+<p>With many built-in functions, Excel can be used for statistical
+calculation.</p>
+<p>Here is a list of frequently used statistical functions.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Function</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6">AVERAGE
+function</a></td>
+<td style="text-align: left;">Returns the average of its arguments</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098">MAX
+function</a></td>
+<td style="text-align: left;">Returns the maximum value in a list of
+arguments</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/median-function-d0916313-4753-414c-8537-ce85bdd967d2">MEDIAN
+function</a></td>
+<td style="text-align: left;">Returns the median of the given
+numbers</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152">MIN
+function</a></td>
+<td style="text-align: left;">Returns the minimum value in a list of
+arguments</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/norm-dist-function-edb1cc14-a21c-4e53-839d-8082074c9f8d">NORM.DIST
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the normal cumulative
+distribution</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/norm-inv-function-54b30935-fee7-493c-bedb-2278a9db7e13">NORM.INV
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the inverse of the normal
+cumulative distribution</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/norm-s-dist-function-1e787282-3832-4520-a9ae-bd2a8d99ba88">NORM.S.DIST
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the standard normal cumulative
+distribution</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/norm-s-inv-function-d6d556b4-ab7f-49cd-b526-5a20918452b1">NORM.S.INV
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the inverse of the standard normal
+cumulative distribution</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/percentile-exc-function-bbaa7204-e9e1-4010-85bf-c31dc5dce4ba">PERCENTILE.EXC
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the k-th percentile of values in a
+range, where k is in the range 0..1, exclusive.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/percentrank-exc-function-d8afee96-b7e2-4a2f-8c01-8fcdedaa6314">PERCENTRANK.EXC
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the rank of a value in a data set
+as a percentage (0..1, exclusive) of the data set</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/quartile-exc-function-5a355b7a-840b-4a01-b0f1-f538c2864cad">QUARTILE.EXC
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Returns the quartile of the data set,
+based on percentile values from 0..1, exclusive</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/standardize-function-81d66554-2d54-40ec-ba83-6437108ee775">STANDARDIZE
+function</a></td>
+<td style="text-align: left;">Returns a normalized value</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://support.microsoft.com/en-us/office/stdev-s-function-7d69cf97-0c1f-4acf-be27-f3e83904cc23">STDEV.S
+function</a> <img
+src="https://support.content.office.net/en-us/media/f1cec941-a9cf-4f10-8bc9-db8d4fa78f74.png"
+alt="Excel 2010" /></td>
+<td style="text-align: left;">Estimates standard deviation based on a
+sample</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example:</strong> The following table shows the test scores
+of 20 students.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Test</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>80</td>
+</tr>
+<tr class="even">
+<td>66</td>
+</tr>
+<tr class="odd">
+<td>72</td>
+</tr>
+<tr class="even">
+<td>76</td>
+</tr>
+<tr class="odd">
+<td>78</td>
+</tr>
+<tr class="even">
+<td>73</td>
+</tr>
+<tr class="odd">
+<td>74</td>
+</tr>
+<tr class="even">
+<td>80</td>
+</tr>
+<tr class="odd">
+<td>79</td>
+</tr>
+<tr class="even">
+<td>80</td>
+</tr>
+<tr class="odd">
+<td>94</td>
+</tr>
+<tr class="even">
+<td>77</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+</tr>
+<tr class="even">
+<td>82</td>
+</tr>
+<tr class="odd">
+<td>89</td>
+</tr>
+<tr class="even">
+<td>92</td>
+</tr>
+<tr class="odd">
+<td>96</td>
+</tr>
+<tr class="even">
+<td>97</td>
+</tr>
+<tr class="odd">
+<td>88</td>
+</tr>
+<tr class="even">
+<td>77</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li>Find the mean and standard deviation.</li>
+<li>Find the 5-number summary for the test.</li>
+</ol>
+<p><strong>Solution:</strong> Suppose the test scores are
+<code>A2:A21</code>.</p>
+<p>The mean is given by the function <code>AVERAGE(A2:A21)</code>. To
+calculate the standard deviation, you can use the method introduced in
+class or use the function <code>STDEV.S(A2:A21)</code>.</p>
+<p>To find the 5-number summary, <strong>sort the data from small to
+large first</strong>. Then depends on the convetion, you may use the
+Excel to find them. See the table below for the functions used in two
+conventions.</p>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 61%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>5-number summary</th>
+<th>Class convetion</th>
+<th>Excel convention</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>minimum</td>
+<td><code>MIN(A2:A21)</code></td>
+<td><code>MIN(A2:A21)</code></td>
+</tr>
+<tr class="even">
+<td>lower quartile</td>
+<td><code>MEDIAN(A2:A11)</code></td>
+<td><code>QUARTILE.EXC(A2:A21, 1)</code></td>
+</tr>
+<tr class="odd">
+<td>median</td>
+<td><code>MEDIAN(A2:A21)</code> or
+<code>QUARTILE.EXC(A2:A21, 2)</code></td>
+<td><code>MEDIAN(A2:A21)</code> or
+<code>QUARTILE.EXC(A2:A21, 2)</code></td>
+</tr>
+<tr class="even">
+<td>upper quartile</td>
+<td><code>MEDIAN(A12:A21)</code></td>
+<td><code>QUARTILE.EXC(A2:A21, 3)</code></td>
+</tr>
+<tr class="odd">
+<td>maximum</td>
+<td><code>MAX(A2:A21)</code></td>
+<td><code>MAX(A2:A21)</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="boxplot">Boxplot</h2>
+<p><strong>Example:</strong> Create a box plot for the test scores in
+the above example.</p>
+<p><strong>Solution:</strong> Suppose the test scores are
+<code>A2:A21</code>.</p>
+<p><strong>Step 1:</strong> Select the scores in
+<code>A1:B21</code>.</p>
+<p><strong>Step 2:</strong> Under the Insert tab, click
+<code>Insert Statistical Chart</code>.</p>
+<p><strong>Step 3:</strong> Click the picture below
+<code>Box and  Wisker</code>. A boxplot will be then created.</p>
+<p><img src="img/Boxplot.gif" /></p>
+<p><em>Note the boxplot created by Excel uses the convention of weighted
+mean for the first and third quartiles.</em></p>
+<h2 id="lab-assignment-4">Lab Assignment #4</h2>
+<p>The following data set contains scores of a uniform final from
+randomly selected 20 students.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Final</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>72</td>
+</tr>
+<tr class="even">
+<td>88</td>
+</tr>
+<tr class="odd">
+<td>82</td>
+</tr>
+<tr class="even">
+<td>82</td>
+</tr>
+<tr class="odd">
+<td>88</td>
+</tr>
+<tr class="even">
+<td>77</td>
+</tr>
+<tr class="odd">
+<td>78</td>
+</tr>
+<tr class="even">
+<td>77</td>
+</tr>
+<tr class="odd">
+<td>76</td>
+</tr>
+<tr class="even">
+<td>76</td>
+</tr>
+<tr class="odd">
+<td>68</td>
+</tr>
+<tr class="even">
+<td>82</td>
+</tr>
+<tr class="odd">
+<td>89</td>
+</tr>
+<tr class="even">
+<td>92</td>
+</tr>
+<tr class="odd">
+<td>96</td>
+</tr>
+<tr class="even">
+<td>97</td>
+</tr>
+<tr class="odd">
+<td>88</td>
+</tr>
+<tr class="even">
+<td>77</td>
+</tr>
+<tr class="odd">
+<td>95</td>
+</tr>
+<tr class="even">
+<td>88</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li>Find the mean and standard deviation.</li>
+<li>Find the five-number summary.</li>
+<li>Create a boxplot for the data.</li>
+<li>Do your think the uniform final exam is easy or hard?</li>
+</ol>
+</body>
+</html>
