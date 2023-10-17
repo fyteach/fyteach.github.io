@@ -1,6 +1,6 @@
 ---
 title: Slides for MA321 Mathematics in Contemporary Society
-type: section
+# type: section
 ---
 
 ## List of course slides

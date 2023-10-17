@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify
+          hugo
       
       - name: Deploy 🚀
         # only deploy when push to main

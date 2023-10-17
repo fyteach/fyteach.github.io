@@ -1,6 +1,6 @@
 ---
 title: Books
-type: section
+# type: section
 ---
 
 ## Notebooks on Calculus and Differential Equations

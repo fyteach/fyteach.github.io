@@ -1,6 +1,6 @@
 ---
 title: Presentations
-type: section
+# type: section
 ---
 
 ## Presentations on Tools for Teachers

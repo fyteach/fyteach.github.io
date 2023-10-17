@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-US"
 title = "fyteaching"
 # theme = "hugo-lithium"
-googleAnalytics = ""
+# googleAnalytics = ""
 # ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 [permalinks]
@@ -14,19 +14,19 @@ googleAnalytics = ""
     weight = 1
 [[menu.main]]
     name = "Books"
-    url = "/books/index.html"
+    url = "/books/"
     weight = 2
 [[menu.main]]
     name = "MA 321"
-    url = "/ma321/index.html"
+    url = "/ma321/"
     weight = 3
 [[menu.main]]
     name = "MA 336"
-    url = "/ma336/index.html"
+    url = "/ma336/"
     weight = 4
 [[menu.main]]
     name = "Others"
-    url = "/others/index.html"
+    url = "/others/"
     weight = 5
 # [[menu.main]]
 #     name = "GitHub"
