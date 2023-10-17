@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teaching Resources on fyteaching</title>
-    <link>/</link>
-    <description>Recent content in Teaching Resources on fyteaching</description>
+    <title>MA321 Mathematics in Contemporary Society on fyteaching</title>
+    <link>/ma321/</link>
+    <description>Recent content in MA321 Mathematics in Contemporary Society on fyteaching</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Books</title>
-      <link>/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/books/</guid>
-      <description>Notebooks on Calculus and Differential Equations Maple Notes for Calculus Maple Notes for Ordinary Differential Equations Reference Solutions to Selected Exercises in Calculus </description>
-    </item>
-    
+    <language>en-US</language><atom:link href="/ma321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Excel Labs for MA321</title>
       <link>/ma321/labs/</link>
@@ -22,26 +13,6 @@
       
       <guid>/ma321/labs/</guid>
       <description>List of lab instructions Lab 1: Introduction Lab 2: Frequency Tables Lab 3: Scatterplot Lab 4: Descriptive Statistics Lab 5: Normal Distribution Lab 6: Unit Conversion Lab 7: Exponetiation Lab 8: Functions </description>
-    </item>
-    
-    <item>
-      <title>MA336 - Statistics</title>
-      <link>/ma336/slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/ma336/slides/</guid>
-      <description>List of course slides Week 1 Week 2 Week 3 Week 4 Week 5 Week 6 Week 7 Week 8 Week 9 Week 10 Week 11 Week 12 Week 13 Week 14 </description>
-    </item>
-    
-    <item>
-      <title>Presentations</title>
-      <link>/others/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/others/</guid>
-      <description>Presentations on Tools for Teachers How to Self-Publish a Book Online Using Bookdown
-Rmarkdown and Other Productivity Tools for Math Teachers
-A Grade Calculator Weighted Grade Calculator </description>
     </item>
     
     <item>
