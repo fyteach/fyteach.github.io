@@ -11,4 +11,8 @@ title: Presentations
 
 ## A Grade Calculator
 
-- [Weighted Grade Calculator](GradeCalculator/index.html)
+- [Weighted Grade Calculator](/GradeCalculator/)
+
+## Exam Policies with Timer
+
+- [Exam Policies with Real Time Clock and Timer](/exam-policies/)

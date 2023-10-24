@@ -17,17 +17,21 @@ title = "fyteaching"
     url = "/books/"
     weight = 2
 [[menu.main]]
-    name = "MA 321"
-    url = "/ma321/"
+    name = "Slides"
+    url = "/slides/"
     weight = 3
 [[menu.main]]
-    name = "MA 336"
-    url = "/ma336/"
+    name = "Labs"
+    url = "/labs/"
     weight = 4
+[[menu.main]]
+    name = "Reviews"
+    url = "/refs/"
+    weight = 5
 [[menu.main]]
     name = "Others"
     url = "/others/"
-    weight = 5
+    weight = 6
 # [[menu.main]]
 #     name = "GitHub"
 #     url = "https://github.com/rstudio/blogdown"
