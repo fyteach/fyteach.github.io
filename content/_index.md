@@ -13,6 +13,8 @@ This page contains some teaching staff on mathematics that may be useful for the
 
 - [Reference Solutions to Selected Exercises in Calculus](https://ex4calc.netlify.com/)
 
+- [Algebra and Geometry of Elementary Functions](https://agfun.yfei.page/)
+
 ## Course Slides
 
 - [MA336 Statistics](ma336/slides/index.html)
