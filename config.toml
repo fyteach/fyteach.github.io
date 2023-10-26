@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-US"
-title = "fyteaching"
+title = "MathTR"
 # theme = "hugo-lithium"
 # googleAnalytics = ""
 # ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -29,9 +29,13 @@ title = "fyteaching"
     url = "/refs/"
     weight = 5
 [[menu.main]]
+    name = "Worksheets"
+    url = "/worksheets/"
+    weight = 6
+[[menu.main]]
     name = "Others"
     url = "/others/"
-    weight = 6
+    weight = 10
 # [[menu.main]]
 #     name = "GitHub"
 #     url = "https://github.com/rstudio/blogdown"

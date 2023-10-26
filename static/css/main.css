@@ -50,13 +50,19 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   text-align: right;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .nav-logo {
   float: left;
-  font-size: min(36pt, 3vh);
-  /* margin-top: -11px;
-  transition: transform 150ms ease-out; */
+  font-size: min(24pt, 3vh);
+  /* margin-top: 12px; */
+  /* transition: transform 150ms ease-out; */
+}
+
+.nav-logo span {
+  padding-top: 12pt;
 }
 
 /* .nav-logo:hover {

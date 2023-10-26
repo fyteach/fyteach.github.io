@@ -31,16 +31,24 @@ This page contains some teaching staff on mathematics that may be useful for the
 
 - [MA114 Final Review](/MA114RefSols/)
 
+## Worksheets for Note-taking Practice
+
+- [MA119 College Algebra](/MA119-Worksheets/main.pdf)
+
+- [MA440 PreCalculus](/MA440-Worksheets/main.pdf)
+
+- [MA441 Calculus I](/MA441-Worksheets/main.pdf)
+
 ## Presentations
 
 - [How to Self-Publish a Book Online Using Bookdown](https://fyuniv.github.io/brownbag-bd)
 
 - [Rmarkdown and Other Productivity Tools for Math Teachers](https://intrmd.netlify.com/)
 
-## A Grade Calculator
+## Overall Grade Calculator
 
-- [Weighted Grade Calculator](/GradeCalculator/index.html)
+- [Online Weighted Grade Calculator](/GradeCalculator/index.html)
 
-## Exam Policies with a Timer
+## Exam Policies with a Countdown Timer and a Clock
 
-- [Exam Policies with a Real Time Clock and a Timer](/exam-policies/)
+- [Exam Policies Webpage](/exam-policies/)
