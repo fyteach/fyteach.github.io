@@ -17,7 +17,7 @@ This page contains some teaching staff on mathematics that may be useful for the
 
 ## Course Slides
 
-- [MA336 Statistics](ma336/slides/index.html)
+- [MA336 Statistics](ma336/index.html)
 
 - [MA321 Mathematics in Contemporary Society](ma321/slides/index.html)
 

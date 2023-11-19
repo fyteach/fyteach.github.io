@@ -1,21 +1,20 @@
 ---
-title: Slides for MA336 Statistics
+title: Resources for MA336 Statistics
 # type: section
 ---
 
 ## List of course slides
 
-- [Week 1 - Statistical Studies](MA336-Week-1-Statistical-Studies.html)
-- [Week 2 - Graphical Descriptions](MA336-Week-2-Graphical-Descriptions.html)
-- [Week 3 - Measure Center Spread](MA336-Week-3-Measure-Center-Spread.html)
-- [Week 4 - Linear Relationship](MA336-Week-4-Linear-Relationship.html)
-- [Week 5 - Linear Regression](MA336-Week-5-Linear-Regression.html)
-- [Week 6 - Two-Way Tables](MA336-Week-6-Two-Way-Tables.html)
-- [Week 7 - Basics of Probability](MA336-Week-7-Probability.html)
-- [Week 8 - Discrete Random Variables](MA336-Week-8-Discrete-Random-Variables.html)
-- [Week 9 - Continuous Random Variables](MA336-Week-9-Continuous-Random-Variables.html)
-- [Week 10 - Sampling Distributions](MA336-Week-10-Sampling-Distributions.html)
-- [Week 11 - Confidence Intervals for Mean](MA336-Week-11-Confidence-Intervals-Mean.html)
-- [Week 12 - Confidence Intervals for Proportion](MA336-Week-12-Confidence-Intervals-Proportion.html)
-- [Week 13 - Concepts of Hypothesis Testing](MA336-Week-13-Concepts-of-Hypothesis-Testing.html)
-- [Week 14 - Hypothesis Testing for Mean and Proportion](MA336-Week-14-Hypothesis-Testing-Mean-Proportion.html)
+- [Topic 1: Statistical Studies](stat-slides/Topic-1-Statistical-Studies.html)
+- [Topic 2: Summarizing Data Graphically](stat-slides/Topic-2-Graphical-Descriptions.html)
+- [Topic 3: Summarizing Data Numerically](stat-slides/Topic-3-Numercial-Descriptions.html)
+- [Topic 4: Linear Relationship](stat-slides/Topic-4-Linear-Relationship.html)
+- [Topic 5: Introduction to Probability](stat-slides/Topic-5-Probability.html)
+- [Topic 6: Two-way Tables](stat-slides/Topic-6-Two-Way-Tables.html)
+- [Topic 7: Discrete Random Variables](stat-slides/Topic-7-Discrete-Random-Variables.html)
+- [Topic 8: Continuous Random Variables](stat-slides/Topic-8-Continuous-Random-Variables.html)
+- [Topic 9: Sampling Distribution](stat-slides/Topic-9-Sampling-Distributions.html)
+- [Topic 10: Confidence Interval for a Mean](stat-slides/Topic-10-Confidence-Intervals-Mean.html)
+- [Topic 11: Confidence Interval for a Proportion](stat-slides/Topic-11-Confidence-Intervals-Proportion.html)
+- [Topic 12: Concepts of Hypothesis Testing](stat-slides/Topic-12-Concepts-of-Hypothesis-Testing.html)
+- [Topic 13: Hypothesis Testing for a Mean or a Proportion](stat-slides/Topic-13-Hypothesis-Testing-Mean-Proportion.html)
