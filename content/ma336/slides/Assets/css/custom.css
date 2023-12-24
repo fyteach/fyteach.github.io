@@ -1,0 +1,133 @@
+/* @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css); */
+
+/* body {
+  font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  font-weight: normal;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+} */
+
+.remark-slide-content {
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.title-slide {
+  background-image: url('../QCC-logo.jpg');
+  background-position: 95% 95%;
+  background-size: 25%;
+  background-color: white;
+  text-shadow: none;
+}
+
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.remark-slide-content h1 {
+  color: rgb(166, 204, 29); 
+}
+
+.remark-slide-content h2 {
+  margin-top: 2%;
+  margin-bottom: auto;
+  color: rgb(166, 204, 29);
+}
+
+.title-slide h1 {
+  margin-top: auto;
+  color: rgb(13, 54, 146);
+}
+.title-slide h2 {
+  color: rgb(166, 204, 29);
+} 
+
+.title-slide h3 {
+  color: rgb(13, 54, 146); 
+}
+
+.left-column{
+  height: 100%
+}
+
+.right-column{
+  padding-top: 0px
+}
+
+.remark-inline-code{
+  /* background: #F5F5F5; /* lighter */
+  background: #e7e8e2; /* darker */
+  /* border-radius: 3px;
+  padding: 4px; */
+}
+
+/* .MathJax { font-size: 0.9em !important; } */
+
+.red { color: rgb(223, 20, 20); }
+
+.blue { color: rgb(66, 66, 247); }
+
+.green { color: rgb(30, 219, 30); }
+
+.purple {color: rgb(226, 15, 233);}
+
+.gold {color: rgb(255, 215, 0);}
+
+.grey {color: rgb(177, 159, 149)}
+
+.yellow {color: yellowgreen}
+
+.pull-left {
+  border-top: 0cm;
+  padding-top: 0pt;
+}
+
+.pull-right {
+  border-top: 0cm;
+  padding-top: 0pt;
+}
+
+.row {
+  display: flex;
+  justify-content: top;
+  align-items: flex-start;
+}
+
+.row .left-col {
+  width: 20%;
+  padding-top: 0em;
+  padding-right:1em;
+}
+.row .right-col {
+  width: 75%;
+  padding-top: 0em;
+  padding-right:1em;
+}
+
+.remark-inline-code {
+  background-color: #f0faa6;
+}
+
+
+
+iframe {
+  max-height: 564px; /* slide size=1210 by 681*/
+  min-height: 282px;
+  border: 0px;
+  width: 100%;
+}
+
+.small{
+  font-size: 60%;
+}
+
+.footmark{
+  font-size: 50%;
+  bottom: 0;
+  position: absolute;
+}

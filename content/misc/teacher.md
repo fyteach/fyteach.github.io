@@ -1,5 +1,5 @@
 ---
-title: Presentations
+title: Resources for Teachers
 # type: section
 ---
 
@@ -8,10 +8,6 @@ title: Presentations
 - [How to Self-Publish a Book Online Using Bookdown](https://fyuniv.github.io/brownbag-bd)
 
 - [Rmarkdown and Other Productivity Tools for Math Teachers](https://intrmd.netlify.com/)
-
-## A Grade Calculator
-
-- [Weighted Grade Calculator](/GradeCalculator/)
 
 ## Exam Policies with Timer
 
