@@ -14,9 +14,16 @@
        url('../fonts/lato-v11-latin-regular.woff2') format('woff2'),
        url('../fonts/lato-v11-latin-regular.woff') format('woff');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
 body {
   font-family: 'Merriweather', serif;
 }
-h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
+h1, h2, h3, h4, h5, h6, .nav, .footer {
   font-family: 'Lato', sans-serif;
+}
+
+.nav-title {
+  font-family: 'Neucha', cursive;
 }
