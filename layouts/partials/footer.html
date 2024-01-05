@@ -1,7 +1,16 @@
       <footer class="footer">
         <p>Last updated: {{ now.Format "January 02, 2006"}} </p>
-      </footer>
 
+        <p style="padding-top: 20px;">
+          <span style="padding-right: 10px;">&copy; Fei Ye</span>
+          <span>2022-{{ now.Format "2006" }}</span>
+          <br/>
+          <span>
+            Department of Mathematics and Computer Science, QCC-CUNY
+          </span>
+        </p>
+
+      </footer>
     </div>
     {{ partial "footer_highlightjs" . }}
     {{ partial "footer_mathjax" . }}

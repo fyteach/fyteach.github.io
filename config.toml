@@ -36,21 +36,9 @@ title = "MathTR"
     name = "Misc"
     url = "/misc/"
     weight = 7
-# [[menu.main]]
-#     name = "GitHub"
-#     url = "https://github.com/rstudio/blogdown"
-# [[menu.main]]
-#     name = "Twitter"
-#     url = "https://twitter.com/rstudio"
 
 [params]
-    description = "A website for teaching/learning in math."
-
-    # options for highlight.js (version, additional languages, and theme)
-    # highlightjsVersion = "9.12.0"
-    # highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    # highlightjsLang = ["r", "yaml"]
-    # highlightjsTheme = "github"
+    description = "A website for teaching in math."
 
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"

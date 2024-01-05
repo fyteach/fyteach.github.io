@@ -1,9 +1,9 @@
 ---
 title: Miscellaneous Resources
-type: section
+# type: section
 ---
 
-## Miscellaneous Resources for Students and Teachers
+<!-- ## Miscellaneous Resources -->
 
 - [Tools for students](student/)
 
