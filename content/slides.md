@@ -18,6 +18,7 @@ title: Course Slides
 - [Topic 11: Confidence Interval for a Proportion](/stat-slides/Topic-11-Confidence-Intervals-Proportion.html)
 - [Topic 12: Concepts of Hypothesis Testing](/stat-slides/Topic-12-Concepts-of-Hypothesis-Testing.html)
 - [Topic 13: Hypothesis Testing for a Mean or a Proportion](/stat-slides/Topic-13-Hypothesis-Testing-Mean-Proportion.html)
+- [Topic 14: Confidence Interval for a Median](/stat-slides/Topic-14-Confidence-Intervals-Median.html)
 
 ## Slides for [MA321](/ma321/)
 
