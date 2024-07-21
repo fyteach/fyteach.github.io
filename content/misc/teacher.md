@@ -12,3 +12,7 @@ title: Resources for Teachers
 ## Exam Policies with Timer
 
 - [Exam Policies with Real Time Clock and Timer](/exam-policies/)
+
+## Basics of Brightspace
+
+- [Brightspace Basics](https://fyteach.github.io/brightspacebasics/)
