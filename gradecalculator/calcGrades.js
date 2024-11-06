@@ -11,51 +11,50 @@ function calcGrades() {
     }
   }
 
+  var warningMessage = document.getElementById('totalweight');
+  var overestimatedMessage = document.getElementById('overestimated');
+
   if (totalweight === 0) {
-    document.getElementById('totalweight').innerHTML = "Please enter a score.";
+    warningMessage.innerHTML = "Please enter a score.";
+    warningMessage.style.display = 'block';
+    warningMessage.classList.add('warning-active');
   } else {
-    var weightedmean = weightedsum/totalweight;
+    var weightedmean = weightedsum / totalweight;
     weightedmean = Math.round(weightedmean);
-    document.getElementById('totalweight').style.display = 'none';
+    warningMessage.style.display = 'none';
+    warningMessage.classList.remove('warning-active');
     if (weightedmean > 100) {
       document.querySelector('.ScoreLetter').style.display = 'none';
-      document.getElementById('overestimated').innerHTML = "You overall is greater than 100. Please use 100-point scale for your scores.";
+      overestimatedMessage.innerHTML = "Your overall is greater than 100. Please use a 100-point scale for your scores.";
+      overestimatedMessage.style.display = 'block';
+      overestimatedMessage.classList.add('warning-active');
     } else {
+      overestimatedMessage.style.display = 'none';
+      overestimatedMessage.classList.remove('warning-active');
       var gradeletter = "";
       if (100 >= weightedmean && weightedmean >= 96) {
         gradeletter = "A";
-      }
-      else if (95 >= weightedmean && weightedmean >= 90) {
+      } else if (95 >= weightedmean && weightedmean >= 90) {
         gradeletter = "A-";
-      }
-      else if (89 >= weightedmean && weightedmean >= 87) {
+      } else if (89 >= weightedmean && weightedmean >= 87) {
         gradeletter = "B+";
-      }
-      else if (86 >= weightedmean && weightedmean >= 84) {
+      } else if (86 >= weightedmean && weightedmean >= 84) {
         gradeletter = "B";
-      }
-      else if (83 >= weightedmean && weightedmean >= 80) {
+      } else if (83 >= weightedmean && weightedmean >= 80) {
         gradeletter = "B-";
-      }
-      else if (79 >= weightedmean && weightedmean >= 77) {
+      } else if (79 >= weightedmean && weightedmean >= 77) {
         gradeletter = "C+";
-      }
-      else if (76 >= weightedmean && weightedmean >= 74) {
+      } else if (76 >= weightedmean && weightedmean >= 74) {
         gradeletter = "C";
-      }
-      else if (73 >= weightedmean && weightedmean >= 70) {
+      } else if (73 >= weightedmean && weightedmean >= 70) {
         gradeletter = "C-";
-      }
-      else if (69 >= weightedmean && weightedmean >= 67) {
+      } else if (69 >= weightedmean && weightedmean >= 67) {
         gradeletter = "D+";
-      }
-      else if (66 >= weightedmean && weightedmean >= 64) {
+      } else if (66 >= weightedmean && weightedmean >= 64) {
         gradeletter = "D";
-      }
-      else if (63 >= weightedmean && weightedmean >= 60) {
+      } else if (63 >= weightedmean && weightedmean >= 60) {
         gradeletter = "D-";
-      }
-      else {
+      } else {
         gradeletter = "F";
       }
       document.getElementById('overallgrade').innerHTML = weightedmean;
@@ -64,3 +63,42 @@ function calcGrades() {
     }
   }
 }
+
+function addRow() {
+  var table = document.getElementById("gradeTable").getElementsByTagName('tbody')[0];
+  var newRow = table.insertRow();
+  var cell1 = newRow.insertCell(0);
+  var cell2 = newRow.insertCell(1);
+  var cell3 = newRow.insertCell(2);
+  var cell4 = newRow.insertCell(3);
+
+  cell1.innerHTML = '<input type="text" name="assessment[]"/>';
+  cell2.innerHTML = '<input type="number" placeholder="1" name="weight[]"/>';
+  cell3.innerHTML = '<input type="number" placeholder="0" name="score[]"/>';
+  cell4.innerHTML = '<button type="button" onclick="deleteRow(this)">Delete</button>';
+}
+
+function deleteRow(button) {
+  var row = button.parentNode.parentNode;
+  row.parentNode.removeChild(row);
+}
+
+document.getElementById('gradeTable').addEventListener('paste', function (e) {
+  e.preventDefault();
+  var text = (e.clipboardData || window.clipboardData).getData('text');
+  var rows = text.split('\n');
+  var table = document.getElementById("gradeTable").getElementsByTagName('tbody')[0];
+
+  rows.forEach(function (row) {
+    var cells = row.split('\t');
+    if (cells.length === 3) {
+      var newRow = table.insertRow();
+      for (var i = 0; i < cells.length; i++) {
+        var newCell = newRow.insertCell(i);
+        newCell.innerHTML = '<input type="text" value="' + cells[i] + '" name="' + (i === 0 ? 'assessment[]' : (i === 1 ? 'weight[]' : 'score[]')) + '"/>';
+      }
+      var deleteCell = newRow.insertCell(3);
+      deleteCell.innerHTML = '<button type="button" onclick="deleteRow(this)">Delete</button>';
+    }
+  });
+});
