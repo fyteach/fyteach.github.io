@@ -102,3 +102,36 @@ document.getElementById('gradeTable').addEventListener('paste', function (e) {
     }
   });
 });
+
+function estimateMissingScores() {
+  var weights = document.getElementsByName("weight[]");
+  var scores = document.getElementsByName("score[]");
+  var expectedGrade = parseFloat(document.getElementById('expectedGrade').value);
+
+  var totalweight = 0;
+  var weightedsum = 0;
+  var missingWeight = 0;
+
+  for (var i = 0; i < scores.length; i++) {
+    if (scores.item(i).value.length > 0) {
+      totalweight += 1 * parseFloat(weights.item(i).value || 1);
+      weightedsum += parseFloat(weights.item(i).value || 1) * parseFloat(scores.item(i).value);
+    } else {
+      missingWeight += parseFloat(weights.item(i).value || 1);
+    }
+  }
+
+  if (missingWeight === 0) {
+    alert("There are no missing scores to estimate.");
+    return;
+  }
+
+  var requiredSum = expectedGrade * (totalweight + missingWeight) - weightedsum;
+  var requiredGrade = requiredSum / missingWeight;
+
+  if (requiredGrade > 100) {
+    alert("It is not possible to achieve the expected grade with the current weights and scores.");
+  } else {
+    alert("You need an average of at least " + requiredGrade.toFixed(2) + " in the remaining assessments to achieve your expected grade.");
+  }
+}

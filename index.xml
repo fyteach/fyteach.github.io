@@ -6,11 +6,14 @@
  &lt;/head>
  &lt;body>
  &lt;h1>Overall Grade Calculator&lt;/h1>
- &lt;p>&lt;strong>How to use this grade calculator&lt;/strong>&lt;/p>
+ &lt;p>How to use the grade calculator&lt;/p>
  &lt;ul>
- &lt;li>Enter weights of assessments. Make sure that the weights you enter are in the same scale.&lt;/li>
- &lt;li>Enter your scores accordingly.&lt;/li>
- &lt;li>Leave the boxes blank or delete the row if you don't have that type of assessment.&lt;/li>
+ &lt;li>Enter the weights for each assessment (use the same scale).&lt;/li>
+ &lt;li>Enter your scores.&lt;/li>
+ &lt;li>Delete a row or leave the weight and score boxes empty to exclude an assessment.&lt;/li>
+ &lt;li>Click "Add Row" to include more assessments.&lt;/li>
+ &lt;li>Click "Calculate Grade" to see your overall grade.&lt;/li>
+ &lt;li>To estimate the minimum average needed for the remaining assessments, leave the score boxes blank, enter your expected overall score (e.g., 74 for a C), and click "Estimate Missing Scores".&lt;/li>
  &lt;/ul>
  &lt;div style="overflow-x:auto;">
  &lt;table id="gradeTable">
@@ -36,35 +39,18 @@
  &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;input type="text" value="Final Exam" name="assessment[]"/>&lt;/td>
- &lt;td>&lt;input type="number" placeholder="1" name="weight[]"/>&lt;/td>
- &lt;td>&lt;input type="number" placeholder="0" name="score[]"/>&lt;/td>
- &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
- &lt;/tr>
- &lt;tr>
  &lt;td>&lt;input type="text" value="Quiz Average" name="assessment[]"/>&lt;/td>
  &lt;td>&lt;input type="number" placeholder="1" name="weight[]"/>&lt;/td>
  &lt;td>&lt;input type="number" placeholder="0" name="score[]"/>&lt;/td>
  &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>&lt;input type="text" value="Project" name="assessment[]"/>&lt;/td>
+ &lt;td>&lt;input type="text" value="Final Exam" name="assessment[]"/>&lt;/td>
  &lt;td>&lt;input type="number" placeholder="1" name="weight[]"/>&lt;/td>
  &lt;td>&lt;input type="number" placeholder="0" name="score[]"/>&lt;/td>
  &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
  &lt;/tr>
- &lt;tr>
- &lt;td>&lt;input type="text" value="In-class Performance" name="assessment[]"/>&lt;/td>
- &lt;td>&lt;input type="number" placeholder="1" name="weight[]"/>&lt;/td>
- &lt;td>&lt;input type="number" placeholder="0" name="score[]"/>&lt;/td>
- &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>&lt;input type="text" value="Lab Assignment" name="assessment[]"/>&lt;/td>
- &lt;td>&lt;input type="number" placeholder="1" name="weight[]"/>&lt;/td>
- &lt;td>&lt;input type="number" placeholder="0" name="score[]"/>&lt;/td>
- &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
- &lt;/tr>
+ &lt;!-- Additional rows here -->
  &lt;/tbody>
  &lt;/table>
  &lt;/div>
@@ -74,8 +60,17 @@
  &lt;button type="button" onclick="calcGrades()">Calculate Grade&lt;/button>
  &lt;/div>
 
- &lt;div class="warningmessage" style="text-align: center;">
- &lt;p id="totalweight">&lt;/p></description></item><item><title/><link>/ma119/ma119-learning-goals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ma119/ma119-learning-goals/</guid><description>&lt;!DOCTYPE html>
+ &lt;div style="text-align: center; margin-top: 20px;">
+ &lt;label for="expectedGrade">Expected Overall Grade:&lt;/label>
+ &lt;input type="number" id="expectedGrade" placeholder="Enter expected grade" />
+ &lt;button type="button" onclick="estimateMissingScores()">Estimate Missing Scores&lt;/button>
+ &lt;/div>
+
+ &lt;div class="warningmessage" id="totalweight">&lt;/div>
+ &lt;div class="warningmessage" id="overestimated">&lt;/div>
+
+ &lt;div class="ScoreLetter">
+ &lt;p>Based on what you entered, your overall grade is &lt;span id="overallgrade">&lt;/span>/100.&lt;/p></description></item><item><title/><link>/ma119/ma119-learning-goals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ma119/ma119-learning-goals/</guid><description>&lt;!DOCTYPE html>
 
 &lt;html>
 
