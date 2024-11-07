@@ -48,7 +48,7 @@
             <td><input type="text" value="Final Exam" name="assessment[]"/></td>
             <td><input type="number" placeholder="1" name="weight[]"/></td>
             <td><input type="number" placeholder="0" name="score[]"/></td>
-            <td><button type="button" onclick="deleteRow(this)">Delete</button></td>
+            <td><button type="button" onclick="deleteRow(this)">Delete"></button></td>
           </tr>
           <!-- Additional rows here -->
         </tbody>
@@ -72,6 +72,17 @@
     <div class="ScoreLetter">
       <p>Based on what you entered, your overall grade is <span id="overallgrade"></span>/100.</p>
       <p>Your grade letter is <span id="gradeletter"></span>.</p>
+    </div>
+
+    <div class="estimateResult"></div>
+
+    <!-- Modal Dialog -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">×</span>
+        <h1 id="modalTitle"></h1>
+        <p id="modalMessage"></p>
+      </div>
     </div>
 
     <script src="calcGrades.js"></script>
