@@ -1,5 +1,3 @@
-/* grade.css */
-
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -22,16 +20,16 @@ p {
 
 ul {
   max-width: 800px;
-  background: #fff3cda1;
+  background: #fff3cd;
   margin: 20px auto;
   padding: 0;
-  list-style-type: disc; /* Added bullet points */
+  list-style-type: disc;
 }
 
 ul li {
   margin: 5px 0;
   padding: 0 10px;
-  list-style-position: inside; /* Ensures bullets are inside the padding */
+  list-style-position: inside;
 }
 
 /* Table Styles */
@@ -88,8 +86,8 @@ button:hover {
 }
 
 .warningmessage {
-  display: none; /* Hidden by default */
-  color: #856404; /* Dark text for contrast */
+  display: none;
+  color: #856404;
   border-radius: 5px;
   padding: 20px;
   font-size: 1.2em;
@@ -99,14 +97,9 @@ button:hover {
 }
 
 .warning-active {
-  background: #fff3cd; /* Light yellow background */
-  border: 2px solid #ffeeba; /* Slightly darker border */
+  background: #fff3cd;
+  border: 2px solid #ffeeba;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.warningmessage p, .ScoreLetter p {
-  margin: 10px 0;
-  font-size: 1.2em;
 }
 
 .ScoreLetter {
@@ -121,4 +114,42 @@ button:hover {
 .ScoreLetter span {
   font-weight: bold;
   color: #4CAF50;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #f4f4f9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

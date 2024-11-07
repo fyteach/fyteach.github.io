@@ -57,9 +57,7 @@ function calcGrades() {
       } else {
         gradeletter = "F";
       }
-      document.getElementById('overallgrade').innerHTML = weightedmean;
-      document.getElementById('gradeletter').innerHTML = gradeletter;
-      document.querySelector('.ScoreLetter').style.display = 'flex';
+      showModal("Overall Grade", "Your overall grade is " + weightedmean + "/100. Your grade letter is " + gradeletter + ".");
     }
   }
 }
@@ -122,16 +120,39 @@ function estimateMissingScores() {
   }
 
   if (missingWeight === 0) {
-    alert("There are no missing scores to estimate.");
-    return;
-  }
-
-  var requiredSum = expectedGrade * (totalweight + missingWeight) - weightedsum;
-  var requiredGrade = requiredSum / missingWeight;
-
-  if (requiredGrade > 100) {
-    alert("It is not possible to achieve the expected grade with the current weights and scores.");
+    showModal("Estimate Missing Scores", "There are no missing scores to estimate.");
   } else {
-    alert("You need an average of at least " + requiredGrade.toFixed(2) + " in the remaining assessments to achieve your expected grade.");
+    var requiredSum = expectedGrade * (totalweight + missingWeight) - weightedsum;
+    var requiredGrade = requiredSum / missingWeight;
+
+    if (requiredGrade > 100) {
+      showModal("Estimate Missing Scores", "It is not possible to achieve the expected grade with the current weights and scores.");
+    } else {
+      showModal("Estimate Missing Scores", "You need an average of at least " + requiredGrade.toFixed(2) + " in the remaining assessments to achieve your expected grade.");
+    }
+  }
+}
+
+function showModal(title, message) {
+  var modal = document.getElementById('modal');
+  var modalTitle = document.getElementById('modalTitle');
+  var modalMessage = document.getElementById('modalMessage');
+
+  modalTitle.innerText = title;
+  modalMessage.innerText = message;
+
+  modal.style.display = 'block';
+}
+
+function closeModal() {
+  var modal = document.getElementById('modal');
+  modal.style.display = 'none';
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById('modal');
+  if (event.target == modal) {
+    modal.style.display = 'none';
   }
 }

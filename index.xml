@@ -48,7 +48,7 @@
  &lt;td>&lt;input type="text" value="Final Exam" name="assessment[]"/>&lt;/td>
  &lt;td>&lt;input type="number" placeholder="1" name="weight[]"/>&lt;/td>
  &lt;td>&lt;input type="number" placeholder="0" name="score[]"/>&lt;/td>
- &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete&lt;/button>&lt;/td>
+ &lt;td>&lt;button type="button" onclick="deleteRow(this)">Delete">&lt;/button>&lt;/td>
  &lt;/tr>
  &lt;!-- Additional rows here -->
  &lt;/tbody>
