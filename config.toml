@@ -9,48 +9,36 @@ title = "MathTR"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
     name = "Books"
     url = "/books/"
-    weight = 2
+    weight = 1
 [[menu.main]]
     name = "Slides"
     url = "/slides/"
-    weight = 3
+    weight = 2
 [[menu.main]]
     name = "Labs"
     url = "/labs/"
-    weight = 4
+    weight = 3
 [[menu.main]]
     name = "Reviews"
     url = "/refs/"
-    weight = 5
+    weight = 4
 [[menu.main]]
     name = "Worksheets"
     url = "/worksheets/"
+    weight = 5
+[[menu.main]]
+    name = "Learning Goals"
+    url = "/goals/"
     weight = 6
 [[menu.main]]
-    name = "Others"
-    url = "/others/"
-    weight = 10
-# [[menu.main]]
-#     name = "GitHub"
-#     url = "https://github.com/rstudio/blogdown"
-# [[menu.main]]
-#     name = "Twitter"
-#     url = "https://twitter.com/rstudio"
+    name = "Misc"
+    url = "/misc/"
+    weight = 7
 
 [params]
-    description = "A website for teaching/learning in math."
-
-    # options for highlight.js (version, additional languages, and theme)
-    # highlightjsVersion = "9.12.0"
-    # highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    # highlightjsLang = ["r", "yaml"]
-    # highlightjsTheme = "github"
+    description = "A website for teaching in math."
 
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"

@@ -1,5 +1,5 @@
 ---
-title: Presentations
+title: Resources for Teachers
 # type: section
 ---
 
@@ -9,10 +9,10 @@ title: Presentations
 
 - [Rmarkdown and Other Productivity Tools for Math Teachers](https://intrmd.netlify.com/)
 
-## A Grade Calculator
-
-- [Weighted Grade Calculator](/GradeCalculator/)
-
 ## Exam Policies with Timer
 
 - [Exam Policies with Real Time Clock and Timer](/exam-policies/)
+
+## Basics of Brightspace
+
+- [Brightspace Basics](https://fyteach.github.io/brightspacebasics/)
