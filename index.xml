@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teaching Resources on</title><link>/</link><description>Recent content in Teaching Resources on</description><generator>Hugo</generator><language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/gradecalculator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/gradecalculator/</guid><description>&lt;!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teaching Resources on MathTR</title><link>/</link><description>Recent content in Teaching Resources on MathTR</description><generator>Hugo</generator><language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/gradecalculator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/gradecalculator/</guid><description>&lt;!DOCTYPE html>
 &lt;html>
  &lt;head>
  &lt;title>Grade Calculator&lt;/title>
@@ -70,52 +70,52 @@
  &lt;div class="warningmessage" id="overestimated">&lt;/div>
 
  &lt;div class="ScoreLetter">
- &lt;p>Based on what you entered, your overall grade is &lt;span id="overallgrade">&lt;/span>/100.&lt;/p></description></item><item><title>Course Slides</title><link>/slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/slides/</guid><description>&lt;h2 id="slides-for-ma336">Slides for &lt;a href="/ma336/">MA336&lt;/a>&lt;/h2>
+ &lt;p>Based on what you entered, your overall grade is &lt;span id="overallgrade">&lt;/span>/100.&lt;/p></description></item><item><title>Course Slides</title><link>/slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/slides/</guid><description>&lt;h2 id="slides-for-ma336">Slides for &lt;a href="./ma336/">MA336&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/ma336/slides/Topic-1-Statistical-Studies.html">Topic 1: Statistical Studies&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-2-Graphical-Descriptions.html">Topic 2: Summarizing Data Graphically&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-3-Numercial-Descriptions.html">Topic 3: Summarizing Data Numerically&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-4-Linear-Relationship.html">Topic 4: Linear Relationship&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-5-Probability.html">Topic 5: Introduction to Probability&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-6-Two-Way-Tables.html">Topic 6: Two-way Tables&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-7-Discrete-Random-Variables.html">Topic 7: Discrete Random Variables&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-8-Continuous-Random-Variables.html">Topic 8: Continuous Random Variables&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-9-Sampling-Distributions.html">Topic 9: Sampling Distribution&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-10-Confidence-Intervals-Mean.html">Topic 10: Confidence Interval for a Mean&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-11-Confidence-Intervals-Proportion.html">Topic 11: Confidence Interval for a Proportion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-12-Concepts-of-Hypothesis-Testing.html">Topic 12: Concepts of Hypothesis Testing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-13-Hypothesis-Testing-Mean-Proportion.html">Topic 13: Hypothesis Testing for a Mean or a Proportion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma336/slides/Topic-14-Confidence-Intervals-Median.html">Topic 14: Confidence Interval for a Median&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-1-Statistical-Studies.html">Topic 1: Statistical Studies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-2-Graphical-Descriptions.html">Topic 2: Summarizing Data Graphically&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-3-Numercial-Descriptions.html">Topic 3: Summarizing Data Numerically&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-4-Linear-Relationship.html">Topic 4: Linear Relationship&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-5-Probability.html">Topic 5: Introduction to Probability&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-6-Two-Way-Tables.html">Topic 6: Two-way Tables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-7-Discrete-Random-Variables.html">Topic 7: Discrete Random Variables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-8-Continuous-Random-Variables.html">Topic 8: Continuous Random Variables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-9-Sampling-Distributions.html">Topic 9: Sampling Distribution&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-10-Confidence-Intervals-Mean.html">Topic 10: Confidence Interval for a Mean&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-11-Confidence-Intervals-Proportion.html">Topic 11: Confidence Interval for a Proportion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-12-Concepts-of-Hypothesis-Testing.html">Topic 12: Concepts of Hypothesis Testing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-13-Hypothesis-Testing-Mean-Proportion.html">Topic 13: Hypothesis Testing for a Mean or a Proportion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma336/slides/Topic-14-Confidence-Intervals-Median.html">Topic 14: Confidence Interval for a Median&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="slides-for-ma321">Slides for &lt;a href="/ma321/">MA321&lt;/a>&lt;/h2>
+&lt;h2 id="slides-for-ma321">Slides for &lt;a href="./ma321/">MA321&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/ma321/slides/Lesson01-Unit-5A.html">Lesson 1: Fundamentals of Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson02-Unit-5B.html">Lesson 2: Statistical Study - Trust or Not&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson03-Unit-5C.html">Lesson 3: Statistical Tables and Graph&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson04-Unit-5D.html">Lesson 4: Graphics in the Media&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson05-Unit-5E.html">Lesson 5: Correlation and Causality&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson06-Unit-6A.html">Lesson 6: Characterizing Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson07-Unit-6B.html">Lesson 7: Measures of Variation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson08-Unit-6C.html">Lesson 8: The Normal Distribution&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson09-Unit-6D.html">Lesson 9: Statistical Inference&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson10-Unit-2A.html">Lesson 10: Understand, Solve, and Explain&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson11-Unit-2B.html">Lesson 11: Problem-Solving with Units&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson12-Unit-2C.html">Lesson 12: Problem-Solving Guidelines and Hints&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson13-Unit-11A.html">Lesson 13: Mathematics and Music&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson14-Unit-11B.html">Lesson 14: Perspective and Symmetry&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson15-Unit-11C.html">Lesson 15: Proportion and the Golden Ratio&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson16-Unit-9A.html">Lesson 16: Functions - The Building Blocks of Mathematical Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/slides/Lesson17-Unit-9B.html">Lesson 17: Linear Modeling&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Lab instructions</title><link>/labs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/labs/</guid><description>&lt;h2 id="lab-instruction-of-ma321">&lt;a href="/ma321/labs/">Lab instruction of MA321&lt;/a>&lt;/h2>
+&lt;li>&lt;a href="./ma321/slides/Lesson01-Unit-5A.html">Lesson 1: Fundamentals of Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson02-Unit-5B.html">Lesson 2: Statistical Study - Trust or Not&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson03-Unit-5C.html">Lesson 3: Statistical Tables and Graph&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson04-Unit-5D.html">Lesson 4: Graphics in the Media&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson05-Unit-5E.html">Lesson 5: Correlation and Causality&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson06-Unit-6A.html">Lesson 6: Characterizing Data&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson07-Unit-6B.html">Lesson 7: Measures of Variation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson08-Unit-6C.html">Lesson 8: The Normal Distribution&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson09-Unit-6D.html">Lesson 9: Statistical Inference&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson10-Unit-2A.html">Lesson 10: Understand, Solve, and Explain&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson11-Unit-2B.html">Lesson 11: Problem-Solving with Units&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson12-Unit-2C.html">Lesson 12: Problem-Solving Guidelines and Hints&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson13-Unit-11A.html">Lesson 13: Mathematics and Music&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson14-Unit-11B.html">Lesson 14: Perspective and Symmetry&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson15-Unit-11C.html">Lesson 15: Proportion and the Golden Ratio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson16-Unit-9A.html">Lesson 16: Functions - The Building Blocks of Mathematical Models&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/slides/Lesson17-Unit-9B.html">Lesson 17: Linear Modeling&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Lab instructions</title><link>/labs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/labs/</guid><description>&lt;h2 id="lab-instruction-of-ma321">&lt;a href="./ma321/labs/">Lab instruction of MA321&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-1.html">Lab 1: Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-2.html">Lab 2: Frequency Tables&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-3.html">Lab 3: Scatterplot&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-4.html">Lab 4: Descriptive Statistics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-5.html">Lab 5: Normal Distribution&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-6.html">Lab 6: Unit Conversion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-7.html">Lab 7: Exponetiation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/ma321/labs/MA321-Lab-8.html">Lab 8: Functions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-1.html">Lab 1: Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-2.html">Lab 2: Frequency Tables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-3.html">Lab 3: Scatterplot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-4.html">Lab 4: Descriptive Statistics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-5.html">Lab 5: Normal Distribution&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-6.html">Lab 6: Unit Conversion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-7.html">Lab 7: Exponetiation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./ma321/labs/MA321-Lab-8.html">Lab 8: Functions&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Learning Goals</title><link>/goals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/goals/</guid><description>&lt;h2 id="learning-goals">Learning Goals&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -147,20 +147,20 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>Reference Solutions</title><link>/refs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/refs/</guid><description>&lt;h2 id="reference-solutions-for-ma119-final-review">Reference Solutions for MA119 Final Review&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/RefSolMA119/">MA119 Final Review&lt;/a>
-&lt;!-- raw HTML omitted -->
+&lt;li>&lt;a href="./RefSolMA119/">MA119 Final Review&lt;/a>
+&lt;p style="font-size: 10pt;">Fall 2024&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="reference-solutions-for-ma114-final-review">Reference Solutions for MA114 Final Review&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/RefSolMA114/">MA114 Final Review&lt;/a>
-&lt;!-- raw HTML omitted -->
+&lt;li>&lt;a href="./RefSolMA114/">MA114 Final Review&lt;/a>
+&lt;p style="font-size: 10pt;">Winter 2023&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="reference-solutions-for-ma121-final-review">Reference Solutions for MA121 Final Review&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/RefSolMA121/">MA121 Final Review&lt;/a>
-&lt;!-- raw HTML omitted -->
+&lt;li>&lt;a href="./RefSolMA121/">MA121 Final Review&lt;/a>
+&lt;p style="font-size: 10pt;">Summer 2024&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>Resources for MA336 Statistics</title><link>/ma336/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ma336/</guid><description>&lt;h2 id="list-of-course-slides-for-ma336-statistics">List of course slides for MA336 Statistics&lt;/h2>
 &lt;p>This page contains a list of slides for the MA336 Statistics course. The slides are organized by topic and can be accessed by clicking on the links below.&lt;/p>
@@ -180,7 +180,7 @@
 &lt;li>&lt;a href="slides/Topic-13-Hypothesis-Testing-Mean-Proportion.html">Topic 13: Hypothesis Testing for a Mean or a Proportion&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Resources for Students</title><link>/misc/student/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/misc/student/</guid><description>&lt;h2 id="a-grade-calculator">A Grade Calculator&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/GradeCalculator/">Weighted Grade Calculator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./GradeCalculator/">Weighted Grade Calculator&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Resources for Teachers</title><link>/misc/teacher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/misc/teacher/</guid><description>&lt;h2 id="presentations-on-tools-for-teachers">Presentations on Tools for Teachers&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -192,7 +192,7 @@
 &lt;/ul>
 &lt;h2 id="exam-policies-with-timer">Exam Policies with Timer&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/exam-policies/">Exam Policies with Real Time Clock and Timer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="./exam-policies/">Exam Policies with Real Time Clock and Timer&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="basics-of-brightspace">Basics of Brightspace&lt;/h2>
 &lt;ul>
@@ -200,12 +200,12 @@
 &lt;/ul></description></item><item><title>Worksheets</title><link>/worksheets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/worksheets/</guid><description>&lt;h2 id="worksheets-for-note-taking-practice">Worksheets for Note-taking Practice&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="/MA119-Worksheets/main.pdf">MA119 College Algebra&lt;/a>&lt;/p>
+&lt;p>&lt;a href="./MA119-Worksheets/main.pdf">MA119 College Algebra&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/MA440-Worksheets/main.pdf">MA440 PreCalculus&lt;/a>&lt;/p>
+&lt;p>&lt;a href="./MA440-Worksheets/main.pdf">MA440 PreCalculus&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/MA441-Worksheets/main.pdf">MA441 Calculus I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="./MA441-Worksheets/main.pdf">MA441 Calculus I&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul></description></item></channel></rss>

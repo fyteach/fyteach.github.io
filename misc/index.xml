@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellaneous Resources on</title><link>/misc/</link><description>Recent content in Miscellaneous Resources on</description><generator>Hugo</generator><language>en</language><atom:link href="/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>Resources for Students</title><link>/misc/student/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/misc/student/</guid><description>&lt;h2 id="a-grade-calculator">A Grade Calculator&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellaneous Resources on MathTR</title><link>/misc/</link><description>Recent content in Miscellaneous Resources on MathTR</description><generator>Hugo</generator><language>en-US</language><atom:link href="/misc/index.xml" rel="self" type="application/rss+xml"/><item><title>Resources for Students</title><link>/misc/student/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/misc/student/</guid><description>&lt;h2 id="a-grade-calculator">A Grade Calculator&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/GradeCalculator/">Weighted Grade Calculator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../GradeCalculator/">Weighted Grade Calculator&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Resources for Teachers</title><link>/misc/teacher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/misc/teacher/</guid><description>&lt;h2 id="presentations-on-tools-for-teachers">Presentations on Tools for Teachers&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -12,7 +12,7 @@
 &lt;/ul>
 &lt;h2 id="exam-policies-with-timer">Exam Policies with Timer&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="/exam-policies/">Exam Policies with Real Time Clock and Timer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="../exam-policies/">Exam Policies with Real Time Clock and Timer&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="basics-of-brightspace">Basics of Brightspace&lt;/h2>
 &lt;ul>
