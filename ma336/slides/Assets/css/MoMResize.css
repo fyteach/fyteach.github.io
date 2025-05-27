@@ -1,0 +1,9 @@
+.embedwrap {
+  overflow: visible;
+  position: relative;
+}
+.embedwrap > iframe {
+  position: absolute;
+  border: none;
+  width: 100%;
+}

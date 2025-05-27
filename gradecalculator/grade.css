@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+ul {
+  max-width: 800px;
+  background: #fff3cd;
+  margin: 20px auto;
+  padding: 0;
+  list-style-type: disc;
+}
+
+ul li {
+  margin: 5px 0;
+  padding: 0 10px;
+  list-style-position: inside;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td input[type="text"], td input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Warning and Score Messages */
+.warningmessage, .ScoreLetter {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.warningmessage {
+  display: none;
+  color: #856404;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.warning-active {
+  background: #fff3cd;
+  border: 2px solid #ffeeba;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ScoreLetter {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ScoreLetter span {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #f4f4f9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

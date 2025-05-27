@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MA321 Lab 7</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+    sans-serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      background-color: #f0f0f0;
+      padding: .2em .4em;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      background-color: #f0f0f0;
+      padding: 1em;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MA321 Lab 7</h1>
+<p class="subtitle">Exponentiation and Applications</p>
+</header>
+<h2 id="exponentiation">Exponentiation</h2>
+<p><strong>Exponentiation</strong> is a mathematical operation, written
+as <span class="math inline">\(b^n\)</span>, involving two numbers, the
+base <span class="math inline">\(b\)</span> and the exponent or power
+<span class="math inline">\(n\)</span>. When <span
+class="math inline">\(n\)</span> is a positive integer, <span
+class="math inline">\(b^n\)</span> represents the <span
+class="math inline">\(n\)</span> times repeated multiplication of the
+base <span class="math inline">\(b\)</span>, that is</p>
+<p><span class="math display">\[b^{n}=\underbrace{b\times \cdots \times
+b}_{n},\]</span></p>
+<p>and is pronounced as “<span class="math inline">\(b\)</span> raised
+to the power of <span class="math inline">\(n\)</span>”.</p>
+<p>In Excel, <span class="math inline">\(b^n\)</span> is calculated by
+the formula <code>=b^n</code>.</p>
+<h2 id="an-application-of-exponentiation-in-music">An Application of
+Exponentiation in Music</h2>
+<p>Make a table (see page 597 in the textbook) of the frequency of 2
+octaves starting from middle C with a frequency of 260 cps. Use
+<code>=260*1.05946^N</code> for <span class="math inline">\(N\)</span>
+half-steps over middle C. Your table may look like this:</p>
+<table>
+<thead>
+<tr class="header">
+<th>half steps above middle C</th>
+<th>Note</th>
+<th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>C</td>
+<td>260</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>C#</td>
+<td>275.5</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>D</td>
+<td>291.8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Solution:</strong> In a new worksheet, enter “half steps
+above middle C” in the cell <code>A1</code>, “Note” in the cell
+<code>B1</code>, and “Frequency” in the cell <code>C1</code>.</p>
+<p>Enter 0, 1, 2 in the cells <code>A2</code>, <code>A3</code> and
+<code>A4</code>. Then select <code>A2</code> to <code>A4</code> and use
+autofill to generate numbers up to 24.</p>
+<p>Enter 260 in the cell <code>C2</code> and the formula
+<code>=260*1.05946^(N)</code> in <code>C3</code>. Then use autofill to
+find frequencies for all notes within 2 octave above the middle C.</p>
+<p>Enter the name of the notes in colum <code>B</code> and you will get
+the table.</p>
+<h2 id="an-application-of-exponentiation-in-investment">An Application
+of Exponentiation in Investment</h2>
+<p>Make a table to represent the growth of your initial investment of
+$500 at 4% interest compounded annually for 10 years. Use
+<code>=500*(1+0.04)^N</code> for a formula. Your table may look like
+this:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Years</th>
+<th>Balance in $</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>500.00</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>520.00</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>540.80</td>
+</tr>
+</tbody>
+</table>
+<p>How long would it take for your investment to grow to $800 or
+more?</p>
+<p><strong>Solution:</strong> In a new worksheet, enter “Years” in the
+cell <code>A1</code> and “Balance(in $)”, in the cell
+<code>B1</code>.</p>
+<p>Enter 0, 1, 2 in the cells <code>A2</code>, <code>A3</code> and
+<code>A4</code>. Then select <code>A2</code> to <code>A4</code> and use
+autofill to generate numbers up to 10.</p>
+<p>Enter 500 in the cell <code>B2</code> and the formula
+<code>=500*(1+0.04)^N</code> in <code>B3</code>. Then use autofill to
+create formulas for each <span class="math inline">\(n\)</span>-th
+year.</p>
+<p>For the second part of the question, generate more rows until you see
+the balance near $800. You will see after 12 years, the balance will be
+over $800.</p>
+<p><strong>Remark:</strong> If one would like to apply for a loan $L,
+with the annual interests <span class="math inline">\(r\)</span>
+compounded <span class="math inline">\(n\)</span> times for t years,
+then the period payment is given by the formula
+<code>=L(1+r/n)^(-n*t)</code>.</p>
+<h2 id="lab-assignment-7">Lab Assignment 7</h2>
+<ol type="1">
+<li><p>Make a table of the frequency of 2 octaves starting from one
+octave below middle C with a frequency of 260 cps to one octaves above
+middle C. Use <code>=260*1.05946^N</code> for <span
+class="math inline">\(N\)</span> half-steps over middle C.</p>
+<p><strong>Hint:</strong> Put 0 for middle C in A13. Then -1 in A12, -2
+in A11 and autofill (upward to A1). Put 1 in A14, 2 in A15 and then
+autofill (downward) to A25. Then generate the frequency using the
+formula <code>=260*1.05946^N</code>.</p></li>
+<li><p>(<strong>Optional</strong>) Make a table to represent the growth
+of your initial investment of $1000 at 4% interest compounded monthly
+for 20 years. Use <code>=500*(1+0.04/12)^(12*N)</code> for a formula,
+where <span class="math inline">\(N\)</span> is the number of years.</p>
+<p>How long would it take for your investment to grow to
+$10,000?</p></li>
+</ol>
+</body>
+</html>

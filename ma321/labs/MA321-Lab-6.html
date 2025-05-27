@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MA321 Lab 6</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+    sans-serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      background-color: #f0f0f0;
+      padding: .2em .4em;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      background-color: #f0f0f0;
+      padding: 1em;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MA321 Lab 6</h1>
+<p class="subtitle">Convert Measurements</p>
+</header>
+<h2 id="the-convert-function-in-excel.">The Convert Function in
+Excel.</h2>
+<ul>
+<li><p>By tying in <code>=convert(x,"from_unit_y","to_unit_z")</code>,
+you will be converting the quantity x given in unit y to unit z.</p>
+<p>For example, typing <code>=convert(600,"w","kw")</code> will give you
+the equivalent of 600 watts in 0.6 kilowatts.</p>
+<p>A complete listing of measurement units that the convert function
+supports is available from Microsoft Office Support at
+https://support.office.com/en-us/article/convert-function-d785bef1-808e-4aac-bdcd-666c810f9af2</p></li>
+</ul>
+<h2 id="multiply-numbers-in-a-cell">Multiply Numbers In A Cell</h2>
+<p>To do this task, use the ***** (asterisk) arithmetic operator.</p>
+<p>For example, if you type <strong>=5*10</strong> in a cell, the cell
+displays the result, <strong>50</strong>.</p>
+<p>In the above example, if 5 is in cell <strong>A1</strong> and 10 is
+in cell <strong>B1</strong>, you may also calculate the produce by
+<strong>=A1*B1</strong>.</p>
+<h2 id="divide-numbers-in-a-cell">Divide Numbers In A Cell</h2>
+<p>To do this task, use the <strong>/</strong> (forward slash)
+arithmetic operator.</p>
+<p>For example, if you type <strong>=10/5</strong> in a cell, the cell
+displays <strong>2</strong>.</p>
+<p>In the above example, if 5 is in cell <strong>A1</strong> and 10 is
+in cell <strong>B1</strong>, you may also calculate the produce by
+<strong>=B1/A1</strong>.</p>
+<h2 id="lab-assignment-6">Lab Assignment 6</h2>
+<ol type="1">
+<li>Convert 7 feet into inches</li>
+<li>How many seconds are there in one year?</li>
+<li>Convert 68 degrees Fahrenheit to Celsius</li>
+<li>Convert 100 square feet into square meters</li>
+<li>According to the U.S. Bureau of Labor Statistics, sanitation workers
+had an average yearly wage of $47,600. Assume that sanitation workers
+generally work 40 hours a week, and there are 52 weeks in the year.
+Calculate the average hourly wage for sanitation workers.</li>
+<li>Assume regular unleaded fuel costs $4.00 per gallon. A Mercedes that
+uses unleaded fuel gets about 25 miles per gallon. How much money will
+the driver of the Mercedes spend on gas in one year if he drives 12,000
+miles</li>
+</ol>
+</body>
+</html>
