@@ -19,11 +19,11 @@ This page contains some teaching staff on mathematics that may be useful for the
 
 - [MA336 Statistics](ma336/index.html)
 
-- [MA321 Mathematics in Contemporary Society](ma321/slides/index.html)
+- [MA321 Mathematics in Contemporary Society](ma321/index.html)
 
 ## Excel Lab Instructions
 
-- [MA321 Mathematics in Contemporary Society](ma321/labs/index.html)
+- [MA321 Mathematics in Contemporary Society](ma321/index.html)
 
 ## Reference Solutions for Final Reviews
 
