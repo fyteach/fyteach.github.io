@@ -5,10 +5,10 @@ title: Course Slides
 
 ## Slides for [MA336](/ma336/)
 
-- [Topic 1: Statistical Studies](/ma336/slides/Topic-1-Statistical-Studies.html)
-- [Topic 2: Summarizing Data Graphically](/ma336/slides/Topic-2-Graphical-Descriptions.html)
-- [Topic 3: Summarizing Data Numerically](/ma336/slides/Topic-3-Numercial-Descriptions.html)
-- [Topic 4: Linear Relationship](/ma336/slides/Topic-4-Linear-Relationship.html)
+- [Topic 1: Statistical Studies](/stat-slides/Topic-1-Statistical-Studies.html)
+- [Topic 2: Summarizing Data Graphically](/stat-slides/Topic-2-Graphical-Descriptions.html)
+- [Topic 3: Summarizing Data Numerically](/stat-slides/Topic-3-Numercial-Descriptions.html)
+- [Topic 4: Linear Relationship](/stat-slides/Topic-4-Linear-Relationship.html)
 - [Topic 5: Introduction to Probability](/ma336/slides/Topic-5-Probability.html)
 - [Topic 6: Two-way Tables](/ma336/slides/Topic-6-Two-Way-Tables.html)
 - [Topic 7: Discrete Random Variables](/ma336/slides/Topic-7-Discrete-Random-Variables.html)
